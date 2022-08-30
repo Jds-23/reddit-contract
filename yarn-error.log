@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/joydeepsingha/.nvm/versions/node/v16.14.2/bin/node /Users/joydeepsingha/.nvm/versions/node/v16.14.2/bin/yarn add hardhar
+
+PATH: 
+  /Users/joydeepsingha/.bun/bin:/Users/joydeepsingha/.nvm/versions/node/v16.14.2/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/joydeepsingha/.cargo/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardhar: Not found
+      at Request.params.callback [as _callback] (/Users/joydeepsingha/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/Users/joydeepsingha/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/Users/joydeepsingha/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/Users/joydeepsingha/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "reddit-contract",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
